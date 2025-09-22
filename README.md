@@ -33,7 +33,7 @@ Al ver nuestra API funcionando correctamente, seguiremos con el frontend.
 
 2. validamos que nuestra aplicación se desplego correctamente ingresando a la siguiente URL:
 
-   http://](http://localhost:3000/authors
+   http://localhost:3000/authors
 
 ### Pruebas Frontend
 
