@@ -6,7 +6,7 @@ La aplicación funciona como un CRUD de autores donde el backend en Spring Boot 
 ## Parte B – Opción desarrollada
 Se implementó la opción de Pruebas Unitarias para el formulario de autores de la siguiente manera:  
 - Creamos una suite de pruebas unitarias (`__tests__/AuthorForm.test.js`) utilizando Jest y Testing Library.  
-- Prueba 1: Verifica que los campos `name`, `birthDate`, `description` e `image` se renderizan correctamente y están listos para interacción.  
+- Prueba 1: Verifica que los campos `name`, `birthDate`, `description` e `image` se renderizan correctamente y están listos para interactuar con el usuario.  
 - Prueba 2: Simula un envío con campos vacíos y valida que el formulario no permita crear un autor.  
 
 
