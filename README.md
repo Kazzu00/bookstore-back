@@ -5,7 +5,7 @@ La aplicación funciona como un CRUD de autores donde el backend en Spring Boot 
 
 ## Parte B – Opción desarrollada
 Se implementó la opción de Pruebas Unitarias para el formulario de autores de la siguiente manera:  
-- Creamos una suite de pruebas unitarias (`__tests__/AuthorForm.test.js`) utilizando Jest y Testing Library.  
+- Creamos una suite de pruebas unitarias (`tests/AuthorForm.test.js`) utilizando Jest y Testing Library.  
 - Prueba 1: Verifica que los campos `name`, `birthDate`, `description` e `image` se renderizan correctamente y están listos para interactuar con el usuario.  
 - Prueba 2: Simula un envío con campos vacíos y valida que el formulario no permita crear un autor.  
 
@@ -41,9 +41,10 @@ Al ver nuestra API funcionando correctamente, seguiremos con el frontend.
    
    npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event jest-environment-jsdom
    
-3. Dentro del directorio del front (.../bookstore-front) usamos el siguiente comando:
+3. Dentro del directorio del front (`.../bookstore-front`) usamos el siguiente comando:
    
    npm test
+   
 Con esto, deberiamos ver dos pruebas sobre el forms de autores.
 
 ---
