@@ -1,5 +1,9 @@
-import "@/styles/globals.css";
+import { AuthorsProvider } from "../context/AuthorsContext";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <AuthorsProvider>
+      <Component {...pageProps} />
+    </AuthorsProvider>
+  );
 }
